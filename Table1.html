@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,tr,td,th {
+            border: 2px solid rgb(42, 37, 37);
+            text-align: center;
+            border-collapse: collapse;       
+         }
+    </style>
+</head>
+<body>
+    <!-- Tables -->
+    <table style="width: 50%;"><!-- Start of table -->
+
+        <!-- Table Body-->
+        <tr> <!-- Table Row -->
+            <th><!-- Table Heading -->
+                Countries
+            </th>
+            <th>
+                States
+            </th>
+            <th>
+                Population
+            </th>
+
+        </tr>
+
+        <tr> 
+            <td>
+                India
+            </td>
+            <td>
+                Maharashtra
+            </td>
+            <td>
+                12.5Cr
+            </td>
+
+        </tr>
+        <tr> 
+            <td>
+                USA
+            </td>
+            <td>
+                New York
+            </td>
+            <td>
+                5Cr
+            </td>
+
+        </tr>
+    </table>
+
+    <table style="width: 50%;">
+        <h2>Row collapse</h2><!-- Start of table -->
+
+        <tr> <!-- Table Row -->
+            <th><!-- Table Heading -->
+                Countries
+            </th>
+            <th>
+                States
+            </th>
+            <th>
+                Population
+            </th>
+       
+
+        <tr> 
+            <td rowspan="2"> India </td>
+            <td> Maharashtra  </td>
+            <td> 12.5Cr </td>
+
+        </tr>
+       
+        <tr> 
+            
+            <td> Gujrat  </td>
+            <td> 10Cr </td>
+
+        </tr>
+
+        <tr> 
+            <td > Austrelia </td>
+            <td> Perth  </td>
+            <td> 4.2Cr </td>
+
+        </tr>
+    </table>
+
+    <table style="width: 50%;">
+        <h2>colspan</h2><!-- Start of table -->
+
+        <tr> <!-- Table Row -->
+            <th colspan="4">Information aboubt Countries</th>
+           
+       
+
+        <tr> 
+            <th>Countries</th>
+            <td colspan="2"> India </td>
+            <td> Austrelia </td>
+            
+
+        </tr>
+       
+        <tr> 
+            <th>States</th>
+            <td>Maharashtra</td>
+            <td>Gujrat</td>
+            <td>Perth</td>
+
+        </tr>
+
+        <tr> 
+            <th>Population</th>
+            <td > 12.5 </td>
+            <td>10</td>
+            <td> 4.2Cr </td>
+
+        </tr>
+    </table>
+</body>
+</html>
